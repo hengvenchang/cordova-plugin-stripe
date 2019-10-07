@@ -33,6 +33,7 @@
         <header-file src="src/ios/CordovaStripe.h" />
         <source-file src="src/ios/CordovaStripe.m" />
         <framework src="src/ios/Stripe.framework" custom="true" />
+        <framework src="Stripe" type="podspec" spec="13.2.0" />
     </platform>
 
     <platform name="browser">
